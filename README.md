@@ -1,1 +1,3 @@
-# SkateQuest
+# SkateMap
+
+The ultimate skate map
