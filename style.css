@@ -1,0 +1,53 @@
+
+
+
+/*Main CSS*/
+html {
+    scroll-behavior:smooth;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*canvas in divs*/
+.canvasDiv {
+    position: relative;
+    padding: 0px;
+    margin-left: 2vw;
+    width: 95vw;
+    height: 95vh;
+}
+
+
+.flagButton {
+    display: none;
+}
+
+
+@media (max-width: 700px) {
+    .canvasDiv {
+        position: relative;
+        padding: 0px;
+        margin-left: 0px;
+        width: 98vw;
+        height: 98vw;
+    }
+    
+    .flagButton {
+        display: inline;
+        width: 95vw;
+        height: calc(90vh - 90vw);
+        margin-top: 2vw;
+        background: url("pin.png");
+        border: none;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center;
+        color: white;
+}
+}
